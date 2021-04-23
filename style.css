@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    width: auto;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(59, 59, 59);
+    font-family: cursive;
+    justify-content: space-between;
+}
+
+.nav-title{
+    color: white;
+    margin: 10px auto 10px 30px;
+    padding-left: 200px;
+}
+
+.nav-links{
+    margin: auto 30px auto auto;
+    padding: 10px;
+}
+
+
+.nav-links > li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links > button{
+    border: 2px solid black;
+    box-shadow: 2px solid black;
+    background-color: cadetblue;
+}
+
+.nav button{
+    height: 25px;
+    width: 75px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    background-color: rgb(117, 165, 187);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 200px;
+}
+
+.main-content{
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+
+
+/* FIRST BLOCK STARTS HERE */
+
+
+.first-block{
+    height: 1000px;
+    flex: 2;
+    max-width: 800px;
+    background-color: blue;
+    display: flex;
+}
+
+/* USER CARD STARTS HERE */
+
+.usercard{
+    width: 750px;
+    height: 374px;
+    font-family: cursive;
+    margin: 40px auto 0px auto;
+    align-content: center;
+}
+
+.topbar{
+    background-color: rgb(117, 165, 187);
+    height: 100px;
+}
+
+.bottominfo{
+    padding: 60px 0px 30px 30px;
+    border-left: 4px solid rgb(175, 175, 175);
+    border-right: 4px solid rgb(175, 175, 175);
+    border-bottom: 4px solid rgb(175, 175, 175);
+    background-color: white;
+}
+
+.fixed-user-circle{
+    position: relative;
+}
+
+.fixed-user-circle img{
+    height: 130px;
+    position: absolute;
+    top: -140px;
+    filter: invert(100%);
+}
+
+.bottominfo .fixed-user-circle{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottominfo h1{
+    margin: 10px auto 5px 5px;
+}
+
+.map-marker{
+    height: 23px;
+    display: inline-block;
+}
+
+.location{
+    display: inline-block;
+    margin: 0px 0px 10px 10px;
+    font-size: 26px;
+}
+
+.location p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottominfo h4{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.gear{
+    height: 50px;
+    width: 150px;
+    margin: 0px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gear img{
+    height: 19px;
+}
+
+.bottominfo a{
+    font-size: 22px;
+    color:rgb(92, 127, 182);
+}
+
+/* EDUCATION BLOCK STARTS HERE */
+
+.education-block{
+    background-color: white;
+    width: 750px;
+    height: 374px;
+    margin-top: 60px;
+}
+
+.topgreybar{
+    background-color: rgb(63, 63, 63);
+    height: 60px;
+    color: white;
+    display: flex;
+}
+
+.topgreybar h2{
+    margin: auto 0px;
+    padding: auto 0px;
+    padding-left: 30px;
+}
+
+.education-info{
+    height: inherit;
+    border-left: 4px solid rgb(175, 175, 175);
+    border-right: 4px solid rgb(175, 175, 175);
+    border-bottom: 4px solid rgb(175, 175, 175);
+    background-color: white;
+}
+
+.education-text{
+    margin: 0px 0px 0px 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+.education-text h2{
+    margin-bottom: 10px;
+}
+
+.education-text p{
+    margin-bottom: 10px;
+}
+
+.education-text h3{
+    margin-bottom: 10px;
+}
+
+/* SECOND BLOCK STARTS HERE */
+
+
+.second-block{
+    height: 1000px;
+    flex: 1;
+    background-color: blueviolet;
+    max-width: 600px;
+    display: flex;
+}
+
+.usercard-2nd-block{
+    width: 330px;
+    height: 250px;
+    font-family: cursive;
+    margin-top: 40px;
+    align-content: flex-start;
+}
+
+.usercard-2nd-block .topgreybar{
+    display: flex;
+}
+
+.topgreybar .circle2{
+    background-color: lightgray;
+    border: 0px solid lightgray;
+    border-radius: 100%;
+    color: black;
+    padding: 0px 10px;
+}
+
+.connection-info{
+    height: fit-content;
+    border-left: 4px solid rgb(175, 175, 175);
+    border-right: 4px solid rgb(175, 175, 175);
+    border-bottom: 4px solid rgb(175, 175, 175);
+    background-color: white;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.connection-info img.profile-pic{
+    height: 50px;
+    border: 0px solid;
+    border-radius: 100%;
+    margin: 0px 0px 0px 20px;
+}
+
+.connection-row1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 30px 0px;
+}
+
+.requests{
+    width: 80px;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.checks{
+    height: 33px;
+    margin: 5px;
+}
+
+.connection-row2{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+.connection-row2 img.requests{
+    height: 30px;
+}
+
+/* YOUR CONNECTIONS BLOCK STARTS HERE */
+
+.topgreybar .circle3{
+    background-color: lightgray;
+    border: 3px solid lightgray;
+    border-radius: 100%;
+    color: black;
+    margin-left: -10px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.your-connections-info{
+    height: fit-content;
+    border-left: 4px solid rgb(175, 175, 175);
+    border-right: 4px solid rgb(175, 175, 175);
+    border-bottom: 4px solid rgb(175, 175, 175);
+    background-color: white;
+    position: relative;
+}
+
+.your-connections-row1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0px;
+}
+
+.your-connections-row1 h2{
+    padding-left: 15px;
+}
+
+.your-connections-row1 img{
+    height: 50px;
+    border: 0px solid;
+    border-radius: 100%;
+    margin: 0px 0px 0px 20px;
+}
+
+.view-more-box{
+    height: fit-content;
+    border-left: 4px solid rgb(175, 175, 175);
+    border-right: 4px solid rgb(175, 175, 175);
+    border-bottom: 4px solid rgb(175, 175, 175);
+    background-color: white;
+    display: flex;
+    align-content: center
+}
+
+.view-more-box a{
+    margin: 15px 0px 15px 25px;
+    font-size: 23px;
+    color: rgb(0, 76, 255);
+    font-family:monospace;
+}
